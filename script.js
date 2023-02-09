@@ -1,5 +1,6 @@
 const song = document.getElementById('audio');
 const playBtn = document.querySelector('#play');
+const button = document.getElementById('reload')
 
 
 let isPlayingMusic = false;
