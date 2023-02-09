@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Music Card</title>
+</head>
+<body class="bg-[#f2f3fa] flex justify-center items-center min-h-screen">
+    <div class="hidden md:block md:absolute md:-ml-[490px] md:mt-12">
+        <img src="/assets/Albin-Lee-Meldau.jpg" alt="" class="w-52 md:w-40 object-cover rounded-lg shadow-lg shadow-red-300 relative">
+    </div>
+    <div class="flex bg-white flex-col md:flex-row text-center md:text-left justify-between px-4 py-16 md:py-12 md:px-10 items-center shadow-lg rounded-lg gap-10">
+        <div class="md:hidden">
+            <img src="/assets/Albin-Lee-Meldau.jpg" alt="" class="w-52 object-cover rounded-lg shadow-lg shadow-red-300 relative">
+        </div>
+        <div class="md:ml-44">
+            <h2 class="font-raleway font-bold md:text-xl text-2xl tracking-wider">Albin Lee Meldou</h2>
+            <h2 class="text-sm tracking-wider">The Weight Is Gone - The Purgatory Sessions</h2>
+        </div>
+        <div class="flex justify-between items-center gap-">
+            <audio src="/assets/music.mp3" controls class="hidden"></audio>
+            <i class="fa-solid fa-backward text-4xl text-violet-500"></i>
+            <div class="bg-white rounded-full border-2 px-4 py-2 shadow-xl">
+                <div class="absolute rounded-full w-20 h-20 -mt-4 -ml-6 border-8 border-violet-100"></div>
+                <i class="fa-sharp fa-solid fa-play text-4xl p-1 text-violet-500 relative"></i>
+            </div>
+            <i class="fa-solid fa-forward text-4xl text-violet-500"></i>
+        </div>
+    </div>
+</body>
+</html>
